@@ -8,3 +8,14 @@
 安装依赖，参考requirements.txt文件
 
 
+#### 创建demo
+使用django自带的django-admin服务，创建demo
+执行命令如下：
+```
+django-admin startproject demo
+cd demo; python manage.py runserver
+```
+自动在 127.0.0.1:8000创建网页服务，可通过浏览器访问
+默认使用sqlite数据库，不需要额外修改
+
+
